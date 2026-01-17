@@ -24,5 +24,11 @@ export const PLATFORMS: PlatformConfig[] = [
     icon: 'box',
     description: 'Entrada estruturada. Separa instruções de sistema dos prompts do usuário, ideal para prototipagem de API.',
     color: '#3b82f6' // Blue
+  },
+  {
+    id: TargetPlatform.LOVABLE,
+    icon: 'heart',
+    description: 'Apps Web Completos. Focado em design visualmente impressionante (UI/UX), React, Tailwind e Supabase.',
+    color: '#ec4899' // Pink
   }
 ];

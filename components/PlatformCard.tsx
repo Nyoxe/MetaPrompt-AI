@@ -1,6 +1,6 @@
 import React from 'react';
 import { TargetPlatform, PlatformConfig } from '../types';
-import { Terminal, Zap, MessageSquare, Box } from 'lucide-react';
+import { Terminal, Zap, MessageSquare, Box, Heart } from 'lucide-react';
 
 interface PlatformCardProps {
   config: PlatformConfig;
@@ -15,6 +15,7 @@ const PlatformCard: React.FC<PlatformCardProps> = ({ config, isSelected, onClick
       case 'terminal': return <Terminal className="w-6 h-6" />;
       case 'message': return <MessageSquare className="w-6 h-6" />;
       case 'box': return <Box className="w-6 h-6" />;
+      case 'heart': return <Heart className="w-6 h-6" />;
       default: return <Zap className="w-6 h-6" />;
     }
   };

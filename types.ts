@@ -2,7 +2,8 @@ export enum TargetPlatform {
   NANO_BANANA = 'Nano Banana',
   ANTIGRAVITY_IDE = 'Antigravity IDE',
   CHATGPT = 'ChatGPT',
-  GOOGLE_AI_STUDIO = 'Google AI Studio'
+  GOOGLE_AI_STUDIO = 'Google AI Studio',
+  LOVABLE = 'Lovable'
 }
 
 export interface PromptRequest {
